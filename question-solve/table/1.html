@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        td, th {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">
+                    Product Id
+                </th>
+                <th colspan="2">
+                    Product Information
+                </th>
+                <th rowspan="2">
+                    Availability
+                </th>
+
+            </tr>
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Price
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2">
+                    101
+                </td>
+                <td>
+                    Spmartphone
+                </td>
+                <td>
+                    $699
+                </td>
+                <td rowspan="2">
+                    In Stock
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Laptop
+                </td>
+                <td>
+                    $999
+                </td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">
+                    102
+                </td>
+                <td>
+                    Tablet
+                </td>
+                <td>
+                    $499
+                </td>
+                <td rowspan="2">
+                    Out of Stock
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Smartwatch
+                </td>
+                <td>
+                    $199
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
